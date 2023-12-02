@@ -1,0 +1,54 @@
+body {
+  background-color: #252525;
+}
+.header {
+  color: aliceblue;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  font-family: 'Funny Samurai', sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.flexcontainer {
+  display: flex;
+  flex-flow: column;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.box {
+  font-size: 2.5rem;
+  flex: 0 0 calc(250% - 20px); /* Maximum of 4 items per line */
+  max-width: calc(25% - 20px);
+  height: 50px; /* Maximum of 4 items per line */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #f0f8ffa9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.box:hover {
+  /* transform: translateY(-5px); */
+  transform: scale(1.05);
+}
+.anime {
+  background: url(assets/OIP.jpg);
+}
+.leviathan{
+  background: url(assets/edf9b71209fe292a680737e5d30b8448.jpg);
+}
