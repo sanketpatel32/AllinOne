@@ -1,6 +1,3 @@
-#AllinOne: My New Website for Everything
-
-I am currently developing a website with the assistance of the community to construct a user-friendly interface for all the valuable information I have gathered across the web.
 # AllinOne: My New Website for Everything
 
 I am currently developing a website with the assistance of the community to construct a user-friendly interface for all the valuable information I have gathered across the web. # AllinOne: My New Website for Everything
